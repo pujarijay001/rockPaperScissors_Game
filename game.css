@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background: #796969;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    
+}
+.game-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: ; */
+    
+}
+h1{
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 0 0 4rem 0;
+}
+.game-choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+}  
+.game-choice p{
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+
+
+} 
+img:hover{
+    transition: transform 0.2s ease;
+    transform: scale(1.05);
+}
+.alert{
+
+    width: 200px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 1rem 2rem;
+    background: #609160;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.points{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+h2{
+    text-align: center;
+    margin: 2rem;
+}
+.score{
+    display: flex;
+    gap: 2rem;
+}
+@media (max-width: 600px){
+
+    .game-choice img{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+    
+        
